@@ -11,11 +11,11 @@ function destuctivelyPrependKitten(name){
   return kittens
 }
 function destructivelyRemoveLastKitten(name){
-  kittens.shift(name)
+  kittens.pop(name)
   return kittens
 }
 function destructivelyRemoveFirtKitten(name){
-  kittens.pop(name)
+  kittens.shift(name)
   return kittens
 }
 function appendKitten(name){
